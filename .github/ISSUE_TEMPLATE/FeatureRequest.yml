@@ -4,13 +4,14 @@ title: ":bulb: "
 labels: ["enhancement"]
 body:
   - type: markdown
-    attributes: |
-      ## Thanks for taking your time to fill out this feature request
+    attributes:
+      value: |
+        ## Thanks for taking your time to fill out this feature request
 
-      We love to hear any and all ideas that you may have. It would be great to get as much detail from you as you wish to provide.
+        We love to hear any and all ideas that you may have. It would be great to get as much detail from you as you wish to provide.
 
-      **Helpful Links**
-      - [Code of Conduct](https://github.com/twitch-choke/.github/blob/main/CODE_OF_CONDUCT.md)
+        **Helpful Links**
+        - [Code of Conduct](https://github.com/twitch-choke/.github/blob/main/CODE_OF_CONDUCT.md)
   - type: checkboxes
     id: terms
     attributes:
@@ -28,7 +29,7 @@ body:
         - Why should the project be changed? What cause does it support?
         - What is the expected outcome?
     validations:
-      - required: true
+      required: true
   - type: textarea
     id: anything-else
     attributes:
@@ -37,4 +38,4 @@ body:
       placeholder: |
         eg: System Information, Version Information
     validations:
-      - required: false
+      required: false
