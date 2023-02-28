@@ -1,0 +1,40 @@
+name: Feature Request
+description: Got a cool idea? Suggest it here
+title: ":bulb: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes: |
+      ## Thanks for taking your time to fill out this feature request
+
+      We love to hear any and all ideas that you may have. It would be great to get as much detail from you as you wish to provide.
+
+      **Helpful Links**
+      - [Code of Conduct](https://github.com/twitch-choke/.github/blob/main/CODE_OF_CONDUCT.md)
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Idea Contribution
+      description: This project has a Code of Conduct that all participants are expected to understand and follow.
+      options:
+        - label: I have read and agreed to the project's [Code of Conduct](https://github.com/twitch-choke/.github/blob/main/CODE_OF_CONDUCT.md)
+          required: true
+  - type: textarea
+    id: whats-your-idea
+    attributes:
+      label: Tell us about your idea
+      description: |
+        - Give as much details as you can to help us understand the change you want to see.
+        - Why should the project be changed? What cause does it support?
+        - What is the expected outcome?
+    validations:
+      - required: true
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything Else?
+      description: Anything else that we should know about your issue?
+      placeholder: |
+        eg: System Information, Version Information
+    validations:
+      - required: false
